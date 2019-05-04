@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Princess Game</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <div id="main-container" class="container">
+        <section class="main-section">
+            <h2 class="text-secondary">Princess Score Game!</h2>
+            <br><br>
+
+
+
+            <!--User's score-->
+            <div class="row, container">
+                <h3 class="col-sm-3"></h3>
+                <h3 class="col-sm-3">Target Score: 
+                  <span id='targetScore'></span>
+                  </h3>
+                  <h3 class="col-sm-2 ">Your Score: <span id='yourScore'></span>
+                  </h3>
+                  
+            <!--Egg pictures-->
+            <div class="container">
+                <div class="row">
+                  <div class="col-sm">
+                    <img src="assets/images/belle.jpg" class="img-fluid" id="belle">
+                  </div>
+                  <div class="col-sm">
+                    <img src="assets/images/ariel.jpg" class="img-fluid" id="ariel">
+                  </div>
+                  <div class="col-sm">
+                    <img src="assets/images/aurora2.jpg" class="img-fluid" id="aurora">
+                  </div>
+                  <div class="col-sm">
+                    <img src="assets/images/Cinderella2.jpg" class="img-fluid" id="cinderella">
+                  </div>
+                </div>
+            </div>
+
+            <!--Scoreboard-->
+            <div class="row, container">
+                <h5 class="col-sm-3"></h5>
+                <h5 class="col-sm-3">Wins: <span id='wins'></span></h5>
+                <h5 class="col-sm-2 ">Losses: <span id='losses'></span></h5>
+               
+    <br> 
+    
+    <footer class="sticky-bottom">
+        <div class="card text-white bg-secondary mb-3">
+            <div class="card-footer">You will be given a random number at the start of the game.  By clicking on a princess you will add a specific amount of points to your total score. You win the game by mathcing your total score to the random number given at the beginning. You lose the game if your total goes above the random number. The value of each princess is hidden until clicked on.  Each time the game restarts, the value of the princesses are reset. Good Luck!</div>
+        </div>
+    </footer>
+
+
+
+
+</body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+<script type="text/javascript" src="assets/javascript/game.js"></script>
+
+
+
+</html>
