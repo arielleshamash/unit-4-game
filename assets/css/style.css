@@ -1,0 +1,14 @@
+h1 {
+    background-image: linear-gradient(to right, rgb(119, 230, 230), #008cff);
+    background-color: #cccccc;
+    color: palevioletred;
+   }
+
+.card-footer {
+    background-image: linear-gradient(to right, rgb(119, 230, 230), #008cff);
+    background-color: #cccccc;
+   }
+
+#scoreText {
+    color: palevioletred;
+}  
